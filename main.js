@@ -1,24 +1,10 @@
-prompt("Enter your name");
-prompt("Enter her name");
+let guestlist = ["ayana","anuma mamma","shashank","sushant","rakesh","pratik","mukesh"];
 
-var lovescore = Math.random() * 100;
-lovescore = Math.floor(lovescore)  + 1; //1-100
+let guestname = prompt("What is your name ?");
 
-if( lovescore > 70 )
-  {
-    alert("Your love score is " + lovescore + "%\nYou guys are made for each other")
-  }
-   
+if(guestlist.includes(guestname)) 
+ alert("Welcome to the party and enjoy!") 
 
-
-if(lovescore > 30 &&  lovescore<=70)
-  {
-    alert("Your love score is " + lovescore + "%\nYou guys are good together")
-  }
-
-  if (lovescore<= 30)
-    {
-      alert("Your love score is " + lovescore + "%\nYou are not good together")
-    }
-
-
+else{
+  alert("Sorry you are not invited !")
+}
