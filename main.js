@@ -1,8 +1,24 @@
-prompt ("What is your name?");
-prompt ("What is her name?");
-
+prompt("Enter your name");
+prompt("Enter her name");
 
 var lovescore = Math.random() * 100;
-lovescore = Math.floor(lovescore) + 1;
-alert("Your lovescore is " + lovescore + "%");
+lovescore = Math.floor(lovescore)  + 1; //1-100
+
+if( lovescore > 70 )
+  {
+    alert("Your love score is " + lovescore + "%\nYou guys are made for each other")
+  }
+   
+
+
+if(lovescore > 30 &&  lovescore<=70)
+  {
+    alert("Your love score is " + lovescore + "%\nYou guys are good together")
+  }
+
+  if (lovescore<= 30)
+    {
+      alert("Your love score is " + lovescore + "%\nYou are not good together")
+    }
+
 
