@@ -1,7 +1,8 @@
-function bmicalculator(weight,height){
-    let bmi = Math.round(weight / (height * height));
-    return bmi;
-}
+prompt ("What is your name?");
+prompt ("What is her name?");
 
-  let bmi = bmicalculator(65, 1.8);
-  console.log(bmi);
+
+var lovescore = Math.random() * 100;
+lovescore = Math.floor(lovescore) + 1;
+alert("Your lovescore is " + lovescore + "%");
+
