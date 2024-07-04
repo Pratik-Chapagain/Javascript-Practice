@@ -1,10 +1,12 @@
-let guestlist = ["ayana","anuma mamma","shashank","sushant","rakesh","pratik","mukesh"];
-
-let guestname = prompt("What is your name ?");
-
-if(guestlist.includes(guestname)) 
- alert("Welcome to the party and enjoy!") 
-
-else{
-  alert("Sorry you are not invited !")
+var numberOfBottles = 99
+while (numberOfBottles >= 0) {
+    var bottleWord = "bottle";
+    if (numberOfBottles === 1) {
+        bottleWord = "bottles";
+    } 
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall");
+    console.log(numberOfBottles + " " + bottleWord + " of beer,");
+    console.log("Take one down, pass it around,");
+	numberOfBottles--;
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
 }
