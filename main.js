@@ -1,5 +1,3 @@
 // dom manipulation
 
 //getelementbyid()
-
-  
